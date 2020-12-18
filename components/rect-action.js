@@ -40,7 +40,7 @@ export default class RectAction extends HTMLElement {
       const rect = new fabric.Rect({
         left: 0,
         top: 0,
-        fill: 'red',
+        fill: 'blue',
         width: 200,
         height: 200,
         selectable: true,
