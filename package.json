@@ -1,0 +1,26 @@
+{
+  "name": "amey2014.github.io",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/amey2014/amey2014.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.",
+  "dependencies": {
+    "mkcert": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amey2014/amey2014.github.io.git"
+  },
+  "author": "Amey Parab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amey2014/amey2014.github.io/issues"
+  },
+  "homepage": "https://github.com/amey2014/amey2014.github.io#readme"
+}

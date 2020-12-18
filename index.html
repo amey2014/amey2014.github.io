@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample OSD Viewer</title>
+  <link href="./main.css" rel="stylesheet" >
+</head>
+<body>
+  <main class="main">
+    <!-- OSD Viewer-->
+    <section class="osdContainer" id="osdAlbumViewer"></section>
+
+    <aside>
+      <!-- Actions container -->
+      <actions-container></actions-container>
+
+      <!-- Color pallete -->
+      <color-pallete></color-pallete>
+
+      <!-- Annotations container -->
+      <annotations-container></annotations-container>
+    </aside>
+   
+    <!-- Image list -->
+    <section class="imageList" id="images" ></section>
+  </main>
+  
+  <script src="./vendor/openseadragon/openseadragon.js"></script>
+  <script src="./vendor/fabric/fabric.js"></script>
+  <script src="./vendor/fabric/openseadragon-fabricjs-overlay.js"></script>
+  <script src="./main.js" type="module" ></script>
+</body>
+</html>
